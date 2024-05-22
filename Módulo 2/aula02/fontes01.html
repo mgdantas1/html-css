@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em HTML</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace; 
+            /* O computador procura a primeira fonte, se não encontrar, coloca a segunda, se não conseguir também, ele coloca uma fonte genérica do tipo desejado */
+            
+            /* 
+            Medidas Absolutas:
+                cm, mm, in, pt, pc
+            Medidas Relativas:
+                em, ex, rem, vw, vh, %
+
+                # Recomenda-se usar "em" e "px":
+                  16px = 1em 
+            */
+
+            /*
+            font-weight: serve para mudar o peso da fonte
+
+            # weight != height != width
+            */            
+        }
+        h1 {
+            /* Shorthand font
+               font: font-style, font-weight, font-size, font-family
+            */
+            
+            font: normal bold 1.8em Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum vero reiciendis tempore a sequi maiores voluptas sapiente repellendus nulla quod beatae doloribus ratione corrupti ipsum praesentium eos fugit quidem error voluptatem quos nobis, illo incidunt. Libero dolor voluptatem rem velit excepturi officia dolore cupiditate, voluptate suscipit asperiores quis unde, accusantium eos odit dolorum explicabo repellat facilis aut? Esse, dolorem quibusdam numquam aliquam in dolor commodi expedita, delectus sit molestiae, officiis illum soluta nemo adipisci. Excepturi sed repudiandae repellat ea, et fuga, velit, nihil illum non esse quibusdam corporis rem placeat. Quae atque aut id ducimus totam fuga nulla nam!</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente alias aliquid numquam molestiae atque nostrum provident, ea minima quia cupiditate dignissimos accusantium esse doloribus beatae adipisci officiis earum tenetur excepturi.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quibusdam, modi natus voluptas accusantium in hic molestiae, sit nesciunt adipisci sunt cupiditate illo voluptatum quidem tempore nam, non corrupti architecto?</p>
+</body>
+</html>

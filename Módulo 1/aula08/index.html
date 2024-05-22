@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Trechos de códigos</h2>
+    <p>Para utilizarmos trechos de códigos nos nossos sites utilizamos a tag <strong>&lt;code&gt;&lt;/code&gt;</strong>, entretanto, ela deixa a letra mono-espaçada apenas. Para que o texto fique com as tabulações, quebras de linhas e espaços utilizamos a tag <strong>&lt;pre&gt;&lt;/pre&gt;</strong>.</p>
+    <pre>
+        <code>
+            num = int(input('Digite um número: '))
+
+            if num % 2 == 0:
+                print('PAR!')
+            else:
+                print('ÍMPAR!')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Para criar citações no meio de uma frase utilizamos <strong>&lt;q&gt;&lt;/q&gt;</strong>: <q>Eu gosto de pão.</q></p>
+    <p>Para criar parágrafos somente para a citação utilizamos <strong>&lt;blockquote&gt;&lt;/blockquote&gt;</strong>:</p>
+    <blockquote cite="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+        <em><q>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web</q></em>
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Para que o usuário saiba qual o significado daquela sigla utilizamos a tag <strong>&lt;abbr&gt;&lt;/abbr&gt;</strong>:</p>
+    <p>Eu estou estudando <abbr title="Hiper Text Markup Language">HTML</abbr>.</p>
+
+    <h2>Inverter textos</h2>
+    <p>Para inverter textos utilizamos <strong>&lt;bdo&gt;&lt;/bdo&gt;</strong> com os parâmetros <strong>rtl</strong> (direita para esquerda) <strong>ltr</strong> (esqueda para direita).</p>
+    <p><bdo dir="rtl">Texto invertido</bdo></p>
+</body>
+</html>

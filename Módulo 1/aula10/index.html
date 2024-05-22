@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- href: cria uma referência hipertexto
+         hreflang: serve para especificar o idioma do link ao qual o usuário está visitando  -->
+    <p>Geralmente, as âncoras nos guiam para outros sites apenas substituindo a página atual pela página que colocamos no href.</p>
+    <a href="https://www.google.com.br/?hl=pt-BR">Acesse o google</a>
+    <p>Mas podemos mudar isso usando o atributo <strong><em>target</em></strong></p>
+    <p><em>_self</em>: o padrão, abre o link na mesma janela</p>
+    <p><em>_blank</em>: abre o link em uma nova janela</p>
+    <a href="https://www.google.com.br/?hl=pt-BR" target="_blank">Acesse o google</a>
+    <p><strong><em>rel</em>:</strong> esse atributo define o relacionamento entre o arquivo em que o comando está escrito e o arquivo que é definido no caminho do href</p>
+    <p>- <em>next</em>: nos leva para outra página dentro do nosso próprio site</p>
+    <p>- <em>external</em>: nos leva para outro site</p>
+
+    <p>Lembre-se: links externos (links absolutos) são links para outro servidor, já links internos (links relativos) são links que direcionam para arquivos do nosso própio servidor.</p>
+    
+    <a href="pag02.html">Vá para página 02<br></a>
+    <a href="notícias/pag03.html">Vá para página 03</a>
+
+    <p>Para baixar arquivos utilizamos os atributos <strong><em>download</em></strong> (indica o nome do arquivo) e <strong><em>type</em></strong> (indica o tipo de arquivo).</p>
+
+    <a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Baixe o pdf do arquivo em pdf<br></a>
+    <a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.zip" type="application/zip">Baixe o pdf do arquivo em zip</a>
+</body>
+</html>

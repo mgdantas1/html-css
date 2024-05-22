@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        /* pseudo-classe especifica um estado especial de um elemento */
+        body {
+            font: normal 400 1.2em Arial, Verdana, sans-serf;
+            background-color: rgb(111, 212, 212);
+            color: white;
+        }
+
+        div > p {
+            display: none;
+        }
+        
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: rgb(0, 134, 134);
+            width: 300px;
+        }
+
+        div:hover {
+            color: rgb(0, 134, 134);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <div>Passe o mouse aqui...
+        <p>Nada Demais colega...</p>
+    </div>
+</body>
+</html>
