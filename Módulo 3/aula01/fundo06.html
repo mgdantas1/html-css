@@ -7,15 +7,25 @@
     <style>
         body {
             height: 100vh;
-            margin: 0px;
-            background-color: #4B6798;
+            /* background-color: #4B6798;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: top center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /* shorthando - background
+                color > image > position > repeat > size > attachment
+
+                <ou>
+
+                color > image > position/size > repeat > attachment
+            */
+
+            background: #4B6798 url('imagens/wallpaper002.jpg') center center/cover no-repeat fixed;
         }
         main {
-            width: 400px;
+            max-width: 400px;
             margin: auto;
             background-color: white;
             border: 2px solid black;
