@@ -12,13 +12,14 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
             font-size: 1.3em;
             font-weight: bold;
             padding: 10px;
-            background-color: rgb(142, 168, 216);
+            background-color: #c7d6f1;
         }
 
         td, th {
@@ -32,6 +33,21 @@
 
         thead, tfoot {
             background-color: cornflowerblue;
+        }
+
+        thead th {
+            position: sticky;
+            top: -1px;
+            background-color: cornflowerblue;
+        }
+
+        tbody > tr:nth-child(2n) {
+            /* 
+                nth-child(odd)
+                nth-child(even)
+                nth-child(xn - 1)
+            */
+            background-color: #c7d6f1;
         }
 
         tfoot td {
@@ -99,6 +115,26 @@
             <tr>
                 <td>Santa Catarina</td>
                 <td class="num">7 610 361</td>
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="num">7 056 495</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="num">6 775 805</td>
+            </tr>
+            <tr>
+                <td>Paraíba</td>
+                <td class="num">3 974 687</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">3 941 613</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">3 833 712</td>
             </tr>
         </tbody>
         <tfoot>
