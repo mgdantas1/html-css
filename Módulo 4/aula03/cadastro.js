@@ -1,1 +1,0 @@
-console.log('Dados enviados com sucesso.')
